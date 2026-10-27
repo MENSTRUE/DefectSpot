@@ -1,0 +1,825 @@
+{
+  "banks": {
+    "bottle": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 6
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "cable": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 5
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "capsule": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 7
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "carpet": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 6
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "grid": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 4
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "hazelnut": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 8
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "leather": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 7
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "metal_nut": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 9
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "pill": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 4
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "screw": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 5
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "tile": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 4
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "toothbrush": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 10
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "transistor": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 10
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "wood": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 4
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    },
+    "zipper": {
+      "type": "builtins.dict",
+      "shape": null,
+      "dtype": null,
+      "length": 7,
+      "keys": {
+        "nn": {
+          "type": "sklearn.neighbors._unsupervised.NearestNeighbors",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "mu": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "sigma": {
+          "type": "numpy.ndarray",
+          "shape": [
+            14
+          ],
+          "dtype": "float32",
+          "length": 14
+        },
+        "resize": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "grid": {
+          "type": "builtins.int",
+          "shape": null,
+          "dtype": null,
+          "length": null
+        },
+        "category": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 6
+        },
+        "approach": {
+          "type": "builtins.str",
+          "shape": null,
+          "dtype": null,
+          "length": 46
+        }
+      }
+    }
+  },
+  "detection": {
+    "task": "detect",
+    "names": {
+      "0": "crazing",
+      "1": "inclusion",
+      "2": "patches",
+      "3": "pitted_surface",
+      "4": "rolled-in_scale",
+      "5": "scratches"
+    }
+  }
+}
