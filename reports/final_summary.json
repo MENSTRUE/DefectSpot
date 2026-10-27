@@ -1,0 +1,48 @@
+{
+  "project": "DefectSpot",
+  "day": 22,
+  "mvtec": {
+    "categories_evaluated": 15,
+    "total_test_images": 1725,
+    "macro_image_auroc": 0.8117201369814974,
+    "macro_coarse_pixel_auroc": 0.8882390812385788,
+    "method": "handcrafted normal-only patch-bank NN",
+    "caution": "Image AP prevalence-dependent; coarse pixel AUROC is on 16x16 patch grid; not official MVTec benchmark protocol"
+  },
+  "neu": {
+    "model": "yolov8n.pt",
+    "classes": [
+      "crazing",
+      "inclusion",
+      "patches",
+      "pitted_surface",
+      "rolled-in_scale",
+      "scratches"
+    ],
+    "test_images": 270,
+    "precision": 0.7189064143010121,
+    "recall": 0.7365388728769836,
+    "map50": 0.7851796208675718,
+    "map50_95": 0.4603302844100538,
+    "per_class_ap50_95": {
+      "crazing": 0.17294711560846449,
+      "inclusion": 0.46156591315323503,
+      "patches": 0.6152720096321208,
+      "pitted_surface": 0.6121977720142702,
+      "rolled-in_scale": 0.33013143375777004,
+      "scratches": 0.569867462294462
+    }
+  },
+  "input_roots": {
+    "mvtec": "/kaggle/input/datasets/wafabila/mvtec-ad-dataset",
+    "neu": "/kaggle/input/datasets/wafabila/neu-det"
+  },
+  "limitations": [
+    "NEU-DET object detection and MVTec anomaly detection are distinct tasks; scores are not directly comparable.",
+    "MVTec training contains normal images only; no defect masks or test labels are used to fit normal patch bank.",
+    "MVTec patch map resolution is 16x16, not high-resolution segmentation; scores are uncalibrated.",
+    "NEU split is grouped by filename-family and exact file hash, but near-duplicate scenes may remain.",
+    "NEU defect classes do not establish other manufacturing defect types outside the dataset.",
+    "MVTec dataset licensing is non-commercial CC BY-NC-SA 4.0; review NEU license and downstream use."
+  ]
+}

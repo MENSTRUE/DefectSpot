@@ -1,0 +1,8 @@
+{
+  "mvtec_root": "/kaggle/input/datasets/wafabila/mvtec-ad-dataset",
+  "neu_root": "/kaggle/input/datasets/wafabila/neu-det",
+  "mvtec_categories": 15,
+  "neu_images": 1800,
+  "neu_xml": 1800,
+  "archive_extraction_root": "/kaggle/working/defectspot_day22/input_unpacked"
+}

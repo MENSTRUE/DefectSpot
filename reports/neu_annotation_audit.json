@@ -1,0 +1,52 @@
+{
+  "valid_images": 1800,
+  "classes": [
+    "crazing",
+    "inclusion",
+    "patches",
+    "pitted_surface",
+    "rolled-in_scale",
+    "scratches"
+  ],
+  "class_box_counts": {
+    "crazing": 689,
+    "patches": 881,
+    "inclusion": 1011,
+    "pitted_surface": 432,
+    "rolled-in_scale": 628,
+    "scratches": 548
+  },
+  "issues": {},
+  "examples": {
+    "crazing": [
+      "crazing_1.jpg",
+      "crazing_10.jpg",
+      "crazing_10.jpg"
+    ],
+    "patches": [
+      "crazing_104.jpg",
+      "crazing_112.jpg",
+      "crazing_152.jpg"
+    ],
+    "inclusion": [
+      "crazing_105.jpg",
+      "inclusion_1.jpg",
+      "inclusion_1.jpg"
+    ],
+    "pitted_surface": [
+      "pitted_surface_1.jpg",
+      "pitted_surface_1.jpg",
+      "pitted_surface_10.jpg"
+    ],
+    "rolled-in_scale": [
+      "rolled-in_scale_1.jpg",
+      "rolled-in_scale_1.jpg",
+      "rolled-in_scale_10.jpg"
+    ],
+    "scratches": [
+      "scratches_1.jpg",
+      "scratches_1.jpg",
+      "scratches_10.jpg"
+    ]
+  }
+}

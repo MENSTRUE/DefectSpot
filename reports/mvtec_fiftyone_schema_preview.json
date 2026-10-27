@@ -1,0 +1,77 @@
+{
+  "samples": 5354,
+  "sample_keys": [
+    [
+      "_id",
+      300
+    ],
+    [
+      "filepath",
+      300
+    ],
+    [
+      "tags",
+      300
+    ],
+    [
+      "_media_type",
+      300
+    ],
+    [
+      "_rand",
+      300
+    ],
+    [
+      "category",
+      300
+    ],
+    [
+      "defect",
+      300
+    ],
+    [
+      "split",
+      300
+    ],
+    [
+      "_dataset_id",
+      300
+    ],
+    [
+      "defect_mask",
+      40
+    ]
+  ],
+  "example_fields": [
+    {
+      "filepath": "data/data_0/176.png",
+      "tags": "[]",
+      "_media_type": "image",
+      "_rand": "0.9990668997832436",
+      "category": "{'_id': {'$oid': '6621d768324f6e05d5834b50'}, '_cls': 'Classification', 'tags': [], 'label': 'transistor'}",
+      "defect": "{'_id': {'$oid': '6621d768324f6e05d5834b51'}, '_cls': 'Classification', 'tags': [], 'label': 'good'}",
+      "split": "train",
+      "_dataset_id": "{'$oid': '6621d768324f6e05d5834b4f'}"
+    },
+    {
+      "filepath": "data/data_0/162.png",
+      "tags": "[]",
+      "_media_type": "image",
+      "_rand": "0.9990369743133156",
+      "category": "{'_id': {'$oid': '6621d768324f6e05d5834b52'}, '_cls': 'Classification', 'tags': [], 'label': 'transistor'}",
+      "defect": "{'_id': {'$oid': '6621d768324f6e05d5834b53'}, '_cls': 'Classification', 'tags': [], 'label': 'good'}",
+      "split": "train",
+      "_dataset_id": "{'$oid': '6621d768324f6e05d5834b4f'}"
+    },
+    {
+      "filepath": "data/data_0/189.png",
+      "tags": "[]",
+      "_media_type": "image",
+      "_rand": "0.9993154079619079",
+      "category": "{'_id': {'$oid': '6621d768324f6e05d5834b54'}, '_cls': 'Classification', 'tags': [], 'label': 'transistor'}",
+      "defect": "{'_id': {'$oid': '6621d768324f6e05d5834b55'}, '_cls': 'Classification', 'tags': [], 'label': 'good'}",
+      "split": "train",
+      "_dataset_id": "{'$oid': '6621d768324f6e05d5834b4f'}"
+    }
+  ]
+}

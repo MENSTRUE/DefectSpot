@@ -1,0 +1,122 @@
+[
+  {
+    "category": "bottle",
+    "train": 209,
+    "test": 83,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "cable",
+    "train": 224,
+    "test": 150,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "capsule",
+    "train": 219,
+    "test": 132,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "carpet",
+    "train": 280,
+    "test": 117,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "grid",
+    "train": 264,
+    "test": 78,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "hazelnut",
+    "train": 391,
+    "test": 110,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "leather",
+    "train": 245,
+    "test": 124,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "metal_nut",
+    "train": 220,
+    "test": 115,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "pill",
+    "train": 267,
+    "test": 167,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "screw",
+    "train": 320,
+    "test": 160,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "tile",
+    "train": 230,
+    "test": 117,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "toothbrush",
+    "train": 60,
+    "test": 42,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "transistor",
+    "train": 213,
+    "test": 100,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "wood",
+    "train": 247,
+    "test": 79,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  },
+  {
+    "category": "zipper",
+    "train": 240,
+    "test": 151,
+    "exact_train_test_hash_overlap": 0,
+    "missing_masks": 0,
+    "missing_mask_examples": []
+  }
+]

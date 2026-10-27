@@ -1,0 +1,92 @@
+{
+  "bottle": {
+    "patches_seen": 53504,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "cable": {
+    "patches_seen": 57344,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "capsule": {
+    "patches_seen": 56064,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "carpet": {
+    "patches_seen": 71680,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "grid": {
+    "patches_seen": 67584,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "hazelnut": {
+    "patches_seen": 100096,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "leather": {
+    "patches_seen": 62720,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "metal_nut": {
+    "patches_seen": 56320,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "pill": {
+    "patches_seen": 68352,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "screw": {
+    "patches_seen": 81920,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "tile": {
+    "patches_seen": 58880,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "toothbrush": {
+    "patches_seen": 15360,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "transistor": {
+    "patches_seen": 54528,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "wood": {
+    "patches_seen": 63232,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  },
+  "zipper": {
+    "patches_seen": 61440,
+    "bank_size": 12000,
+    "unreadable": 0,
+    "unreadable_examples": []
+  }
+}

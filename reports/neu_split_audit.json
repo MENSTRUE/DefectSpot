@@ -1,0 +1,22 @@
+{
+  "split_sizes": {
+    "train": 1259,
+    "val": 270,
+    "test": 270
+  },
+  "classes": [
+    "crazing",
+    "inclusion",
+    "patches",
+    "pitted_surface",
+    "rolled-in_scale",
+    "scratches"
+  ],
+  "missing_class_in_train": [],
+  "missing_class_in_val": [],
+  "missing_class_in_test": [],
+  "exact_image_duplicates_excluded": 1,
+  "family_groups": 1799,
+  "split_method": "seeded grouped split with deterministic class-coverage search; exact-hash and filename-family union",
+  "selection_attempt": 0
+}

@@ -1,0 +1,8 @@
+{
+  "categories_evaluated": 15,
+  "total_test_images": 1725,
+  "macro_image_auroc": 0.8117201369814974,
+  "macro_coarse_pixel_auroc": 0.8882390812385788,
+  "method": "handcrafted normal-only patch-bank NN",
+  "caution": "Image AP prevalence-dependent; coarse pixel AUROC is on 16x16 patch grid; not official MVTec benchmark protocol"
+}

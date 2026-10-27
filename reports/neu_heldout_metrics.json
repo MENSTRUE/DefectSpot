@@ -1,0 +1,24 @@
+{
+  "model": "yolov8n.pt",
+  "classes": [
+    "crazing",
+    "inclusion",
+    "patches",
+    "pitted_surface",
+    "rolled-in_scale",
+    "scratches"
+  ],
+  "test_images": 270,
+  "precision": 0.7189064143010121,
+  "recall": 0.7365388728769836,
+  "map50": 0.7851796208675718,
+  "map50_95": 0.4603302844100538,
+  "per_class_ap50_95": {
+    "crazing": 0.17294711560846449,
+    "inclusion": 0.46156591315323503,
+    "patches": 0.6152720096321208,
+    "pitted_surface": 0.6121977720142702,
+    "rolled-in_scale": 0.33013143375777004,
+    "scratches": 0.569867462294462
+  }
+}

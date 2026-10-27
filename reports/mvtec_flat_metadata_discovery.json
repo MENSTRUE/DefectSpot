@@ -1,0 +1,37 @@
+[
+  {
+    "file": "mvtec-ad/metadata.json",
+    "bytes": 6506,
+    "shape": "dict",
+    "keys": [
+      "_id",
+      "name",
+      "slug",
+      "version",
+      "created_at",
+      "last_loaded_at",
+      "sample_collection_name",
+      "persistent",
+      "media_type",
+      "group_media_types",
+      "tags",
+      "info",
+      "app_config",
+      "classes",
+      "default_classes",
+      "mask_targets",
+      "default_mask_targets",
+      "skeletons",
+      "sample_fields",
+      "frame_fields"
+    ]
+  },
+  {
+    "file": "mvtec-ad/samples.json",
+    "bytes": 2608532,
+    "shape": "dict",
+    "keys": [
+      "samples"
+    ]
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "category": "bottle",
+    "train_good": 209,
+    "test_images": 83,
+    "masks": 63,
+    "test_types": {
+      "broken_large": 20,
+      "broken_small": 22,
+      "contamination": 21,
+      "good": 20
+    }
+  },
+  {
+    "category": "cable",
+    "train_good": 224,
+    "test_images": 150,
+    "masks": 92,
+    "test_types": {
+      "bent_wire": 13,
+      "cable_swap": 12,
+      "combined": 11,
+      "cut_inner_insulation": 14,
+      "cut_outer_insulation": 10,
+      "good": 58,
+      "missing_cable": 12,
+      "missing_wire": 10,
+      "poke_insulation": 10
+    }
+  },
+  {
+    "category": "capsule",
+    "train_good": 219,
+    "test_images": 132,
+    "masks": 109,
+    "test_types": {
+      "crack": 23,
+      "faulty_imprint": 22,
+      "good": 23,
+      "poke": 21,
+      "scratch": 23,
+      "squeeze": 20
+    }
+  },
+  {
+    "category": "carpet",
+    "train_good": 280,
+    "test_images": 117,
+    "masks": 89,
+    "test_types": {
+      "color": 19,
+      "cut": 17,
+      "good": 28,
+      "hole": 17,
+      "metal_contamination": 17,
+      "thread": 19
+    }
+  },
+  {
+    "category": "grid",
+    "train_good": 264,
+    "test_images": 78,
+    "masks": 57,
+    "test_types": {
+      "bent": 12,
+      "broken": 12,
+      "glue": 11,
+      "good": 21,
+      "metal_contamination": 11,
+      "thread": 11
+    }
+  },
+  {
+    "category": "hazelnut",
+    "train_good": 391,
+    "test_images": 110,
+    "masks": 70,
+    "test_types": {
+      "crack": 18,
+      "cut": 17,
+      "good": 40,
+      "hole": 18,
+      "print": 17
+    }
+  },
+  {
+    "category": "leather",
+    "train_good": 245,
+    "test_images": 124,
+    "masks": 92,
+    "test_types": {
+      "color": 19,
+      "cut": 19,
+      "fold": 17,
+      "glue": 19,
+      "good": 32,
+      "poke": 18
+    }
+  },
+  {
+    "category": "metal_nut",
+    "train_good": 220,
+    "test_images": 115,
+    "masks": 93,
+    "test_types": {
+      "bent": 25,
+      "color": 22,
+      "flip": 23,
+      "good": 22,
+      "scratch": 23
+    }
+  },
+  {
+    "category": "pill",
+    "train_good": 267,
+    "test_images": 167,
+    "masks": 141,
+    "test_types": {
+      "color": 25,
+      "combined": 17,
+      "contamination": 21,
+      "crack": 26,
+      "faulty_imprint": 19,
+      "good": 26,
+      "pill_type": 9,
+      "scratch": 24
+    }
+  },
+  {
+    "category": "screw",
+    "train_good": 320,
+    "test_images": 160,
+    "masks": 119,
+    "test_types": {
+      "good": 41,
+      "manipulated_front": 24,
+      "scratch_head": 24,
+      "scratch_neck": 25,
+      "thread_side": 23,
+      "thread_top": 23
+    }
+  },
+  {
+    "category": "tile",
+    "train_good": 230,
+    "test_images": 117,
+    "masks": 84,
+    "test_types": {
+      "crack": 17,
+      "glue_strip": 18,
+      "good": 33,
+      "gray_stroke": 16,
+      "oil": 18,
+      "rough": 15
+    }
+  },
+  {
+    "category": "toothbrush",
+    "train_good": 60,
+    "test_images": 42,
+    "masks": 30,
+    "test_types": {
+      "defective": 30,
+      "good": 12
+    }
+  },
+  {
+    "category": "transistor",
+    "train_good": 213,
+    "test_images": 100,
+    "masks": 40,
+    "test_types": {
+      "bent_lead": 10,
+      "cut_lead": 10,
+      "damaged_case": 10,
+      "good": 60,
+      "misplaced": 10
+    }
+  },
+  {
+    "category": "wood",
+    "train_good": 247,
+    "test_images": 79,
+    "masks": 60,
+    "test_types": {
+      "color": 8,
+      "combined": 11,
+      "good": 19,
+      "hole": 10,
+      "liquid": 10,
+      "scratch": 21
+    }
+  },
+  {
+    "category": "zipper",
+    "train_good": 240,
+    "test_images": 151,
+    "masks": 119,
+    "test_types": {
+      "broken_teeth": 19,
+      "combined": 16,
+      "fabric_border": 17,
+      "fabric_interior": 16,
+      "good": 32,
+      "rough": 17,
+      "split_teeth": 18,
+      "squeezed_teeth": 16
+    }
+  }
+]

@@ -1,0 +1,16 @@
+category,train_good,test_images,masks
+bottle,209,83,63
+cable,224,150,92
+capsule,219,132,109
+carpet,280,117,89
+grid,264,78,57
+hazelnut,391,110,70
+leather,245,124,92
+metal_nut,220,115,93
+pill,267,167,141
+screw,320,160,119
+tile,230,117,84
+toothbrush,60,42,30
+transistor,213,100,40
+wood,247,79,60
+zipper,240,151,119
