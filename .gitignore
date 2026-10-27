@@ -1,0 +1,42 @@
+@'
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node / frontend
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Jupyter
+.ipynb_checkpoints/
+.kaggle/
+
+# Local datasets and temporary outputs
+data/
+datasets/
+uploads/
+outputs/
+runs/
+*.zip
+*.7z
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.pem
+*.key
+'@ | Set-Content -Encoding UTF8 .gitignore
