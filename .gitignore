@@ -1,5 +1,4 @@
-@'
-# Python
+# Python environments and caches
 .venv/
 venv/
 __pycache__/
@@ -8,10 +7,12 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 
-# Environment
+# Local environment / secrets
 .env
 .env.*
 !.env.example
+*.pem
+*.key
 
 # Node / frontend
 node_modules/
@@ -19,11 +20,11 @@ dist/
 coverage/
 *.tsbuildinfo
 
-# Jupyter
+# Jupyter / Kaggle
 .ipynb_checkpoints/
 .kaggle/
 
-# Local datasets and temporary outputs
+# Raw local datasets and temporary outputs (reports/models explicitly tracked)
 data/
 datasets/
 uploads/
@@ -32,11 +33,9 @@ runs/
 *.zip
 *.7z
 
-# Operating system
+# OS
 .DS_Store
 Thumbs.db
 
-# Secrets
-*.pem
-*.key
-'@ | Set-Content -Encoding UTF8 .gitignore
+# Local backups
+*.bak
