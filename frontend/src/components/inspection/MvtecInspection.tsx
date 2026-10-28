@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+﻿import { useEffect, useState } from 'react';
 import './MvtecInspection.css';
 
 type Result = {
@@ -24,7 +24,7 @@ export default function MvtecInspection() {
   const [result, setResult] = useState<Result | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
-  const [showOverlay, setShowOverlay] = useState(true);
+  
   useEffect(() => {
     if (!file) { setPreview(''); return; }
     const url = URL.createObjectURL(file);
@@ -63,7 +63,7 @@ export default function MvtecInspection() {
     URL.revokeObjectURL(url);
   }
   return <section className="mvtec-panel" aria-label="MVTec anomaly inspection">
-    <div className="mvtec-head"><div><h2>MVTec AD · Visual anomaly</h2><p>Normal-only patch nearest-neighbor · 15 kategori · heatmap 16×16</p></div><span className="mvtec-status">Research prototype</span></div>
+    <div className="mvtec-head"><div><h2>MVTec AD Â· Visual anomaly</h2><p>Normal-only patch nearest-neighbor Â· 15 kategori Â· heatmap 16Ã—16</p></div><span className="mvtec-status">Research prototype</span></div>
     <div className="mvtec-form">
       <label>Kategori produk <select value={category} onChange={e=>{setCategory(e.target.value);setResult(null);}}>{CATEGORIES.map(c=><option key={c} value={c}>{c}</option>)}</select></label>
       <label>Gambar produk <input type="file" accept="image/png,image/jpeg,image/webp" onChange={e=>onFile(e.target.files?.[0])}/></label>
@@ -72,7 +72,7 @@ export default function MvtecInspection() {
     {error && <p className="mvtec-error" role="alert">{error}</p>}
     <div className="mvtec-images">
       {preview && <figure><img src={preview} alt="Uploaded product"/><figcaption>Original</figcaption></figure>}
-      {result?.overlay_jpeg_base64 && <figure><img src={`data:image/jpeg;base64,${result.overlay_jpeg_base64}`} alt="Coarse anomaly heatmap overlay"/><figcaption>Coarse patch heatmap overlay · display scaling per image</figcaption></figure>}
+      {result?.overlay_jpeg_base64 && <figure><img src={`data:image/jpeg;base64,${result.overlay_jpeg_base64}`} alt="Coarse anomaly heatmap overlay"/><figcaption>Coarse patch heatmap overlay Â· display scaling per image</figcaption></figure>}
     </div>
     {result && <div className="mvtec-result">
       <div><span>Raw anomaly distance</span><strong>{result.anomaly_score_raw.toFixed(4)}</strong></div>
@@ -83,3 +83,4 @@ export default function MvtecInspection() {
     </div>}
   </section>;
 }
+
